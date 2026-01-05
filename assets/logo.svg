@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="heartGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B6B"/>
+      <stop offset="100%" style="stop-color:#EE5A5A"/>
+    </linearGradient>
+    <linearGradient id="pulseGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00CEC9"/>
+      <stop offset="50%" style="stop-color:#00B894"/>
+      <stop offset="100%" style="stop-color:#00CEC9"/>
+    </linearGradient>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6C5CE7"/>
+      <stop offset="100%" style="stop-color:#A29BFE"/>
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="240" fill="#0d1b2a" stroke="url(#ringGrad)" stroke-width="8"/>
+  <circle cx="256" cy="256" r="200" fill="none" stroke="url(#ringGrad)" stroke-width="3" opacity="0.3"/>
+  <circle cx="256" cy="256" r="160" fill="none" stroke="url(#ringGrad)" stroke-width="2" opacity="0.2"/>
+  <g transform="translate(256, 180)">
+    <path d="M0 30 C0 -10, -50 -30, -70 10 C-90 -30, -140 -10, -140 30 C-140 80, -70 130, 0 170 C70 130, 140 80, 140 30 C140 -10, 90 -30, 70 10 C50 -30, 0 -10, 0 30 Z" 
+          fill="url(#heartGrad)" transform="scale(0.7)"/>
+  </g>
+  <g transform="translate(80, 280)">
+    <path d="M0 0 L60 0 L80 -40 L100 40 L120 -60 L140 60 L160 -20 L180 0 L350 0" 
+          stroke="url(#pulseGrad)" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(380, 120)">
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#00CEC9" stroke-width="4"/>
+    <path d="M0 -15 L0 5 L10 5" stroke="#00CEC9" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(100, 140)">
+    <rect x="-20" y="-25" width="40" height="50" rx="5" fill="none" stroke="#FDCB6E" stroke-width="3"/>
+    <line x1="-10" y1="-10" x2="10" y2="-10" stroke="#FDCB6E" stroke-width="2"/>
+    <line x1="-10" y1="0" x2="10" y2="0" stroke="#FDCB6E" stroke-width="2"/>
+    <line x1="-10" y1="10" x2="5" y2="10" stroke="#FDCB6E" stroke-width="2"/>
+  </g>
+</svg>

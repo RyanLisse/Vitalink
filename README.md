@@ -1,5 +1,7 @@
 # Vitalink
 
+![Vitalink Logo](assets/logo.svg)
+
 A macOS CLI & MCP server for Apple HealthKit - enabling AI agents to read and write health data.
 
 ## Features
@@ -11,8 +13,8 @@ A macOS CLI & MCP server for Apple HealthKit - enabling AI agents to read and wr
 
 ## Requirements
 
-- macOS 14.0+
-- Xcode 15+ / Swift 6.0+
+- macOS 26+ (Tahoe)
+- Swift 6.2+
 - HealthKit available on the device
 
 ## Installation
