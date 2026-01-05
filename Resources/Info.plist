@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>com.cortex.vitalink</string>
+    <key>CFBundleName</key>
+    <string>Vitalink</string>
+    <key>CFBundleDisplayName</key>
+    <string>Vitalink</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundleExecutable</key>
+    <string>vitalink</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>NSHealthShareUsageDescription</key>
+    <string>Vitalink needs access to read your health data to provide insights and enable AI-powered health queries.</string>
+    <key>NSHealthUpdateUsageDescription</key>
+    <string>Vitalink needs access to write health data to save workouts, measurements, and other health information.</string>
+    <key>NSHealthClinicalHealthRecordsShareUsageDescription</key>
+    <string>Vitalink can access your clinical health records to provide comprehensive health insights.</string>
+</dict>
+</plist>

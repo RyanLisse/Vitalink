@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.mcpli.74b65cd3.6f0cdfab</string>
+  <key>ProgramArguments</key>
+  <array>
+      <string>/Users/cortex-mini/.nvm/versions/node/v22.17.0/bin/node</string>
+      <string>/Users/cortex-mini/.bun/install/global/node_modules/mcpli/dist/daemon/wrapper.js</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/cortex-mini/Developer/Vitalink</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>MCPLI_ORCHESTRATOR</key>
+    <string>launchd</string>
+    <key>MCPLI_SOCKET_ENV_KEY</key>
+    <string>MCPLI_SOCKET</string>
+    <key>MCPLI_SOCKET_PATH</key>
+    <string>/var/folders/72/f31fj1xd1sg33fc336j4y9zc0000gn/T/mcpli/74b65cd3/6f0cdfab.sock</string>
+    <key>MCPLI_CWD</key>
+    <string>/Users/cortex-mini/Developer/Vitalink</string>
+    <key>MCPLI_TOOL_TIMEOUT_MS</key>
+    <string>600000</string>
+    <key>MCPLI_COMMAND</key>
+    <string>.build/debug/vitalink</string>
+    <key>MCPLI_ARGS</key>
+    <string>[&quot;mcp&quot;,&quot;serve&quot;]</string>
+    <key>MCPLI_SERVER_ENV</key>
+    <string>{}</string>
+    <key>MCPLI_ID_EXPECTED</key>
+    <string>6f0cdfab</string>
+    <key>PATH</key>
+    <string>/Users/cortex-mini/Developer/clawdis/Peekaboo/Apps:/Users/cortex-mini/Developer/imsg/bin:/Users/cortex-mini/.antigravity/antigravity/bin:/Users/cortex-mini/.vapi/bin:/Users/cortex-mini/.qlty/bin:/Applications/Windsurf.app/Contents/Resources/app/bin:/Users/cortex-mini/.nvm/versions/node/v22.17.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/opt/homebrew/opt/make/libexec/gnubin:/Users/cortex-mini/bin:/usr/local/bin:/Users/cortex-mini/.bun/bin:/Users/cortex-mini/.opencode/bin:/Users/cortex-mini/.turso:/opt/homebrew/opt/ruby/bin:/Users/cortex-mini/Library/pnpm:/Users/cortex-mini/Library/Android/sdk/emulator:/Users/cortex-mini/Library/Android/sdk/platform-tools:/usr/local/opt/git/bin:/Users/cortex-mini/.codeium/windsurf/bin:/Users/cortex-mini/.local/bin:/Users/cortex-mini/.pixi/bin:/Users/cortex-mini/.modular/bin:/Users/cortex-mini/.modular/pkg/packages.modular.com_mojo/bin:/Users/cortex-mini/Library/Application Support/fnm:/Users/cortex-mini/.nix-profile/bin:/run/current-system/sw/bin:/nix/var/nix/profiles/default/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Warp.app/Contents/Resources/bin:/Users/cortex-mini/.lmstudio/bin</string>
+    <key>MCPLI_TIMEOUT</key>
+    <string>5000</string>
+  </dict>
+
+  <key>Sockets</key>
+  <dict>
+    <key>MCPLI_SOCKET</key>
+    <dict>
+      <key>SockPathName</key>
+      <string>/var/folders/72/f31fj1xd1sg33fc336j4y9zc0000gn/T/mcpli/74b65cd3/6f0cdfab.sock</string>
+      <key>SockPathMode</key>
+      <integer>384</integer>
+    </dict>
+  </dict>
+  <key>KeepAlive</key>
+  <dict>
+    <key>SuccessfulExit</key>
+    <false/>
+  </dict>
+  <key>ProcessType</key>
+  <string>Background</string>
+</dict>
+</plist>
